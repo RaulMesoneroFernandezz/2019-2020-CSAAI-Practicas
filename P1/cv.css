@@ -1,0 +1,65 @@
+body {
+  background-color: #F5DDAC;
+}
+
+h2 {
+  color: orange;
+  font-family: "calibri", Garamond, 'Comic Sans';
+}
+
+button {
+  color: #0E63CF;
+  background-color: #CF2B0E
+}
+a {
+  background-color: #CF2B0E
+}
+span.special {
+  font-size: x-large;
+  color: #E34913;
+}
+span.stagerojo {
+  color: #F31212;
+}
+span.stageazul {
+  color: #1275F3;
+}
+span.stageuv {
+  color: #9C18F1;
+}
+span.stagenegro {
+  color: #0A0A0A;
+}
+span.stagemagenta {
+  color: #EA18F1;
+}
+span.stageindigo {
+  color: #0F288D;
+}
+span.stageyellow {
+  color: yellow;
+}
+span.stagewhite {
+  color: white;
+}
+span.stagepurple {
+  color: #7B12EB;
+}
+
+#title{
+  font-family: "fantasy"; font-size: "25px"; font-style: "normal"; font-variant: "normal"; font-weight: "700"; line-height: "20px"; text-align: center;
+  color: #E34913;
+  margin: 10px;
+  padding:12px;
+  border: solid;
+  border-color: #41EE12;
+}
+p {
+  text-align: left;
+}
+h4 {
+  color: #DF1717;
+  font-family: "calibri", Garamond, 'Comic Sans';
+  margin: 0px;
+  padding:0px;
+}
