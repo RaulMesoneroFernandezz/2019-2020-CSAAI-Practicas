@@ -1,5 +1,6 @@
 body {
   background-color: #F5DDAC;
+  font-size: 120%;
 }
 #fotoqdance{
   margin-right: 10px;
@@ -98,7 +99,7 @@ span.stagepurple {
 .bloque4{
   border: solid;
   border-color: #760FE3;
-  background-color: #B0E30F;
+  background-color: #DCEF1D;
   margin: 10px;
   padding:12px;
   margin-right: 140px;
@@ -133,13 +134,14 @@ table.blueTable {
   width: 100%;
   text-align: left;
   border-collapse: collapse;
+  margin: 10px;
 }
 table.blueTable td, table.blueTable th {
   border: 1px solid #BE2648;
   padding: 3px 2px;
 }
 table.blueTable tbody td {
-  font-size: 13px;
+  font-size: 20px;
 }
 table.blueTable tr:nth-child(even) {
   background: #D0E4F5;
@@ -152,7 +154,7 @@ table.blueTable thead {
   border-bottom: 2px solid #444444;
 }
 table.blueTable thead th {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: #FFFFFF;
   border-left: 2px solid #D0E4F5;
@@ -162,7 +164,7 @@ table.blueTable thead th:first-child {
 }
 
 table.blueTable tfoot {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
   color: #FFFFFF;
   background: #D0E4F5;
@@ -172,5 +174,8 @@ table.blueTable tfoot {
   border-top: 2px solid #444444;
 }
 table.blueTable tfoot td {
-  font-size: 14px;
+  font-size: 20px;
+}
+.videos{
+  margin-left: 300px;
 }
