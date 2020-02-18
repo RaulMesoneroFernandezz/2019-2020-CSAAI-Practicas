@@ -1,7 +1,9 @@
 body {
   background-color: #F5DDAC;
 }
-
+#fotoqdance{
+  margin-right: 10px;
+}
 h2 {
   color: orange;
   font-family: "calibri", Garamond, 'Comic Sans';
@@ -56,6 +58,65 @@ span.stagepurple {
   padding:12px;
   border: solid;
   border-color: #F31212;
+}
+#parrafoprincipal{
+  border: solid;
+  border-color: #F31212;
+  background-color: #D18E20;
+  margin: 40px;
+  padding:12px;
+  margin-right: 140px;
+}
+#encabezadojeje{
+  text-align: center;
+  margin: 5px;
+}
+#hrdos{
+  width:27%;
+  background-color: #D8A014;
+}
+#parrafodos {
+  border: solid;
+  border-color: #0A0909;
+  background-color: #D8A014;
+  margin: 10px;
+  padding:12px;
+}
+.bloque3{
+  border: solid;
+  border-color: #0A0909;
+  background-color: #E3CC0F;
+  margin: 10px;
+  padding:12px;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+#titulobloque3{
+  color: #E30F2C;
+  margin: 0px;
+}
+.bloque4{
+  border: solid;
+  border-color: #760FE3;
+  background-color: #B0E30F;
+  margin: 10px;
+  padding:12px;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+.bloquecentral{
+  border: solid;
+  border-color: #760FE3;
+  background-color: #CFB25A;
+  margin: 10px;
+}
+#fotoqlimax{
+  margin-right: 30px;
+  margin-top: 30px;
+}
+#fotodefqon{
+  margin-right: 30px;
+  margin-top: 50px;
 }
 p {
   text-align: left;
