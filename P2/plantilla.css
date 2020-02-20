@@ -4,15 +4,22 @@ body {
 }
 .bloquegeneral {
   border: solid;
-  border-color: #760FE3;
-  background-color: #CFB25A;
-  margin-top: 150px;
+  border-color: #000000;
+  background-color: #000000;
+  margin-top: 50px;
   margin-left: 150px;
   margin-right: 150px;
   padding:15px;
+  border-radius: 10%;
+}
+.titulo {
+  text-align: center;
+  margin: 5px;
+  color: #ea1c1c;
 }
 .boxcalculadora {
-  background-color: #444564;
+  background-color: #010101;
+  border-radius: 10%;
 }
 .calculadora {
 
@@ -23,14 +30,36 @@ body {
   background-color: #E3CC0F;
   margin: 10px;
   padding:1px;
-  margin-right: 20px;
-  margin-left: 180px;
+  margin-right: 275px;
+  margin-left: 275px;
   text-align: right;
+  display: block;
+  overflow-y: scroll;
+}
+.tabladentrodislplay {
+  text-align: right;
+  border-color: #0A0909;
+  margin: 10px;
+  margin-left: 210px;
 }
 .numbers {
-  background-color: #b5e5af;
+  background-color: #ab8c8c;
+  text-align: center;
+  font-size: 300%;
+  margin-right: 140px;
+  margin-left: 140px;
+  padding: 35px;
+  color: #ffffff;
+}
+.simboloigual {
+  background-color: #e5e822;
   text-align: center;
   font-size: 200%;
   margin-right: 140px;
   margin-left: 140px;
+}
+.cajanumbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

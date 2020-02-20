@@ -8,40 +8,48 @@
   </head>
   <body>
     <div class="bloquegeneral">
+      <h2 class="titulo">Refferenz's Calculator</h2>
       <div class="boxcalculadora">
         <div class="display">
-          <p>El resultado es:</p>
+              <table class="tabladentrodislplay">
+                <tr>
+                  <td colspan="4" id="resultado">El resultado es:</td>
+                  <td>HOLA</td>
+                </tr>
+              </table>
         </div>
-        <table class="calculadora">
-          <tr>
-            <td class="numbers">C</td>
-            <td class="numbers">÷</td>
-            <td class="numbers">x</td>
-            <td class="numbers">Borrar</td>
-          </tr>
-          <tr>
-            <td class="numbers">7</td>
-            <td class="numbers">8</td>
-            <td class="numbers">9</td>
-            <td class="numbers">-</td>
-          </tr>
-          <tr>
-            <td class="numbers">4</td>
-            <td class="numbers">5</td>
-            <td class="numbers">6</td>
-            <td class="numbers">+</td>
-          </tr>
-          <tr>
-            <td class="numbers">1</td>
-            <td class="numbers">2</td>
-            <td class="numbers">3</td>
-          </tr>
-          <tr>
-            <td class="numbers">0</td>
-            <td class="numbers">,</td>
-            <td class="numbers">=</td>
-          </tr>
-        </table>
+        <div class="cajanumbers">
+          <table class="calculadora">
+            <tr>
+              <td button id="reset" class="numbers">C</button></td>
+              <td button id="dividir" class="numbers">÷</button></td>
+              <td button id="multiplicar" class="numbers">x</button></td>
+              <td button id="borrar" class="numbers">←</button></td>
+            </tr>
+            <tr>
+              <td button id="siete" class="numbers">7</button></td>
+              <td button id="ocho" class="numbers">8</button></td>
+              <td button id="nueve" class="numbers">9</button></td>
+              <td button id="restar" class="numbers">-</button></td>
+            </tr>
+            <tr>
+              <td button id="cuatro" class="numbers">4</button></td>
+              <td button id="cinco" class="numbers">5</button></td>
+              <td button id="seis" class="numbers">6</button></td>
+              <td button id="sumar" class="numbers">+</button></td>
+            </tr>
+            <tr>
+              <td button id="uno" class="numbers">1</button></td>
+              <td button id="dos" class="numbers">2</button></td>
+              <td button id="tres" class="numbers">3</button></td>
+              <td button id="igual" rowspan="2" class="simboloigual">=</button></td>
+            </tr>
+            <tr>
+              <td button id="cero" colspan="2" class="numbers">0</button></td>
+              <td button id="coma" class="numbers">,</button></td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
   </body>
