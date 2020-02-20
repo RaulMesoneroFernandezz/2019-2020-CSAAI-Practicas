@@ -1,0 +1,36 @@
+body {
+  background-color: #F5DDAC;
+  font-size: 120%;
+}
+.bloquegeneral {
+  border: solid;
+  border-color: #760FE3;
+  background-color: #CFB25A;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding:15px;
+}
+.boxcalculadora {
+  background-color: #444564;
+}
+.calculadora {
+
+}
+.display {
+  border: solid;
+  border-color: #0A0909;
+  background-color: #E3CC0F;
+  margin: 10px;
+  padding:1px;
+  margin-right: 20px;
+  margin-left: 180px;
+  text-align: right;
+}
+.numbers {
+  background-color: #b5e5af;
+  text-align: center;
+  font-size: 200%;
+  margin-right: 140px;
+  margin-left: 140px;
+}
