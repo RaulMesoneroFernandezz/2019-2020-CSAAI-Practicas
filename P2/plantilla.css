@@ -22,16 +22,16 @@ body {
   border-radius: 10%;
 }
 .calculadora {
-
+  text-align: center;
 }
 .display {
   border: solid;
   border-color: #0A0909;
   background-color: #E3CC0F;
   margin: 10px;
-  padding:1px;
-  margin-right: 275px;
-  margin-left: 275px;
+  padding:10px;
+  margin-right: 525px;
+  margin-left: 525px;
   text-align: right;
   display: block;
   overflow-y: scroll;
@@ -41,6 +41,7 @@ body {
   border-color: #0A0909;
   margin: 10px;
   margin-left: 210px;
+  background-position: center;
 }
 .numbers {
   background-color: #ab8c8c;
@@ -62,4 +63,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#resultado{
+  text-align: right;
+  font-size: 120%;
+  display: block;
+  margin-bottom: 5px;
+  overflow-y: scroll;
 }
