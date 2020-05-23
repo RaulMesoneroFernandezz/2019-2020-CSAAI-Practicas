@@ -1,0 +1,55 @@
+.container{
+	width: 70%;
+	height: 800px;
+	background-color: RGB(168,250,156);
+}
+
+.mainVideo{
+	width: 400px;
+	height: 250px;
+	border: 3px dotted black;
+	border-radius: 5px;
+	margin-left: 35%;
+	text-align: center;
+}
+
+.subContainer{
+	margin-top: 10%;
+	margin-left: 30%;
+	width:90%;
+	height:100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+#videoUno{
+	width: 150px;
+	height: 90px;
+	border: 3px dotted black;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#videoDos{
+	margin-left: 2.5%;
+	width: 150px;
+	height: 90px;
+	border: 3px dotted black;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#videoTres{
+	margin-left: 2.5%;
+	width: 150px;
+	height: 90px;
+	border: 3px dotted black;
+	border-radius: 5px;
+	text-align: center;
+}
+
+
+.botonPlay{
+	text-align:center;
+}
