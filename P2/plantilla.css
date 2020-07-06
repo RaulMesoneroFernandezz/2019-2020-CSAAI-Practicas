@@ -1,0 +1,59 @@
+body {
+  background-color: #F5DDAC;
+  font-size: 120%;
+}
+.bloquegeneral {
+  border: solid;
+  border-color: #000000;
+  background-color: #000000;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding:15px;
+  border-radius: 10%;
+}
+.titulo {
+  text-align: center;
+  margin: 5px;
+  color: #ea1c1c;
+}
+.boxcalculadora {
+  background-color: #010101;
+  border-radius: 10%;
+}
+.calculadora {
+  text-align: center;
+}
+.display {
+  border: solid;
+  border-color: #0A0909;
+  background-color: #F6DB00;
+  width: 30%;
+  margin-left: 34.8%;
+  display: block;
+}
+.numbers {
+  background-color: #ab8c8c;
+  text-align: center;
+  font-size: 300%;
+  margin-right: 140px;
+  margin-left: 140px;
+  padding: 35px;
+  color: #ffffff;
+}
+.simboloigual {
+  background-color: #e5e822;
+  text-align: center;
+  font-size: 200%;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+.cajanumbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resultado{
+  text-align: center;
+  font-size: 40pt;
+}
